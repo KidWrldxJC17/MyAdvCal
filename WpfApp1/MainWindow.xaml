@@ -7,16 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="650" Width="1000">
     <Grid Margin="10">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+        
+        <Label Name="Title" FontSize="30" 
+               HorizontalAlignment="Center"
+               Margin="0,30,0,0">
+            Advanced Calculator
+        </Label>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
-
-        <Label Grid.Column="1">Advanced Calculator</Label>
+        <Button Name="Exit" Width="25" Height="25" 
+                VerticalAlignment="Top" 
+                HorizontalAlignment="Right"
+                Margin="0,0,10,0"
+                Content="X" FontSize="7" Click="Exit_Click"/>
     </Grid>
 </Window>

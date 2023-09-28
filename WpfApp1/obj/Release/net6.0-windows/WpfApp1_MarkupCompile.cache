@@ -1,18 +1,18 @@
 ﻿WpfApp1
-1.0.0.0
+
 
 winexe
 C#
 .cs
-C:\Users\JC\MyAdvCal\WpfApp1\obj\Debug\net6.0-windows\
+C:\Users\JC\MyAdvCal\WpfApp1\obj\Release\net6.0-windows\
 WpfApp1
 none
 false
-TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+TRACE;RELEASE;NET;NET6_0;NETCOREAPP
 C:\Users\JC\MyAdvCal\WpfApp1\App.xaml
 11407045341
 
-5-1303815099
+3-1233169557
 194-1617825143
 MainWindow.xaml;
 

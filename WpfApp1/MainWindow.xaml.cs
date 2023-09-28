@@ -15,14 +15,18 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            // Closes the application
+            Application.Current.Shutdown();
         }
     }
 }
